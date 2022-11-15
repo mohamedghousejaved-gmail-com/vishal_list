@@ -1,0 +1,86 @@
+def list1(a):
+    list=[10,20,30,40,50]
+    len(list)
+def list2(a):
+    list1=list(a)
+    print (list)
+def list3(a):
+    list=[10,20,30,40,50]
+    list=[10,20,30,40]
+    list.append(50)
+    print (list)
+def list5(a):
+    list=[10,20,30,40,50]
+    list2=[40,50]
+    list.extend(list2)
+def list6(a):
+    list=[10,20,30,40,50]
+    list.insert(2,25)
+    print (list)
+def list7 (a):
+    list=[10,20,30,40,50]
+    list.count(10)
+    print (list)
+def list8 (a):
+    list=[10,20,30,40,10]
+    list.index(20)
+    print (list)
+def list9 (a):
+    list=[10,20,30,40,50]
+    list.remove(30)
+    print (list)
+def list10(a):
+    list = [10, 20, 30, 40, 50,60]
+    list.pop(3)
+def list11(a):
+    list = [10, 20, 30, 40, 10]
+    list.reverse()
+    print(list)
+def list12(a):
+    list = [10, 20, 30, 40, 10]
+    list.sort()
+def list13(a):
+    list = [10, 20, 30, 40, 10]
+    list2=sorted(list)
+    print (list)
+def list14(a):
+    list = [10, 20, 30, 40, 10]
+    min(list)
+def list15(a):
+    list = [10, 20, 30, 40, 10]
+    max(list)
+def list16(a):
+    list = [10, 20, 30, 40, 10]
+    sum(list)
+a=int(input("enter"))
+c=int(input("choice"))
+if c==1:
+    print(list1(a))
+if c==1:
+    print(list2(a))
+if c==1:
+    print(list3(a))
+if c==1:
+    print(list5(a))
+if c==1:
+    print(list6(a))
+if c==1:
+    print(list7(a))
+if c==1:
+    print(list8(a))
+if c==1:
+    print(list9(a))
+if c==1:
+    print(list10(a))
+if c==1:
+    print(list11(a))
+if c==1:
+    print(list12(a))
+if c == 1:
+    print(list13(a))
+if c==1:
+    print(list14(a))
+if c==1:
+    print(list15(a))
+if c==1:
+    print(list16(a))
